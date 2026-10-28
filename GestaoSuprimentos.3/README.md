@@ -64,6 +64,5 @@ Os dados ficam **apenas em memória** (`mutableStateListOf`), como pede o enunci
 
 ## Integrantes
 
-- _Nome 1_
-- _Nome 2_
-- _Nome 3_
+Vinicius Vicente Angelino
+Marcos Danrlei de Araujo
