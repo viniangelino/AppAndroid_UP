@@ -45,8 +45,7 @@ app/src/main/java/br/com/gestaosuprimentos/
 
 # Documentação do processo e das decisões
 
-> ✏️ **Antes de entregar:** reescrevam os trechos marcados com ✏️ com as palavras do trio e coloquem
-> os prints/vídeos na pasta `docs/prints/`. O enunciado não aceita documentação sem o app funcionando em imagem/vídeo.
+> Video na pasta [VIDEOS]
 
 ## 1. Como estava o projeto no Trabalho 2 e o que mudou
 
@@ -66,7 +65,6 @@ No Trabalho 3:
 | Detalhe procurava o item na lista em memória | Detalhe busca direto no banco com `dao.buscarPorId(id)` |
 | Dados de exemplo criados toda vez que o app abria | Dados de exemplo inseridos **uma única vez**, quando o banco é criado |
 
-✏️ *Print: a mesma tela no Trabalho 2 e no Trabalho 3.*
 
 ## 2. Entity, DAO e Database criados — e por quê
 
@@ -86,7 +84,6 @@ Mantivemos exatamente os campos do Trabalho 2 para não quebrar as telas. Decis�
 **Database:** `AppDatabase` (`abstract class ... : RoomDatabase()`), `version = 1`, com Singleton
 (`companion object` + `@Volatile` + `synchronized`) para o app inteiro usar a mesma conexão.
 
-✏️ *Expliquem com as palavras de vocês por que escolheram esses campos.*
 
 ## 3. Queries além dos 4 métodos básicos
 
@@ -99,7 +96,6 @@ Mantivemos exatamente os campos do Trabalho 2 para não quebrar as telas. Decis�
 
 ## 4. Dificuldade em migrar de `mutableStateListOf` para Room
 
-✏️ *Contem com as palavras de vocês. O que aconteceu de verdade neste projeto:*
 
 - **Versões do Android Studio:** o projeto não sincronizava no Android Studio Quail 3 com o Gradle 8.9 ("Could not move temporary workspace"). Resolvemos atualizando para AGP 9.3.3 + Gradle 9.5. No AGP 9 o Kotlin já vem embutido, então tiramos o plugin `org.jetbrains.kotlin.android` do módulo `app`, e usamos o KSP 2.3.12, que é compatível com isso.
 - **`LocalDate` no Room:** dava erro porque o Room não sabe salvar esse tipo. Trocamos por `Long`.
@@ -109,19 +105,18 @@ Mantivemos exatamente os campos do Trabalho 2 para não quebrar as telas. Decis�
 
 ## 5. Teste de persistência
 
-1. Adicionar um cliente → ✏️ *print*
-2. Fechar o app completamente (tirar dos recentes) → ✏️ *print*
-3. Abrir de novo → o cliente continua na lista → ✏️ *print ou vídeo*
+1. Adicionar um cliente → 
+2. Fechar o app completamente (tirar dos recentes) → 
+3. Abrir de novo → o cliente continua na lista → 
 
-✏️ *Coloquem aqui o link do vídeo curto mostrando o teste.*
 
 ## 6. Integrantes e dificuldades de cada um
 
 | Integrante | O que fez | Dificuldade e como resolveu |
 |---|---|---|
-| ✏️ Nome 1 | ✏️ | ✏️ |
-| ✏️ Nome 2 | ✏️ | ✏️ |
-| ✏️ Nome 3 | ✏️ | ✏️ |
+
+- Vinicius Vicente Angelino
+- Marcos Danrlei de Araujo
 
 ---
 
