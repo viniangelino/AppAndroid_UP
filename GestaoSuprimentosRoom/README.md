@@ -8,7 +8,7 @@ salvos de verdade num **banco SQLite local usando Room**. Fechar e abrir o app n
 
 1. Clone o repositório:
    ```bash
-   git clone <URL-DO-REPOSITORIO>
+   git clone <(https://github.com/viniangelino/AppAndroid_UP)>
    ```
 2. Abra a pasta no **Android Studio Quail (2026.1) ou mais novo** em *File → Open* (a pasta que tem o `settings.gradle.kts`).
 3. Se perguntar a JVM do Gradle, escolha **JVM 21**. Espere o Gradle sincronizar.
