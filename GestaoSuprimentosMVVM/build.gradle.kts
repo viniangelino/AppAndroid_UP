@@ -1,0 +1,8 @@
+// Versões compatíveis com o Android Studio Quail 3 (2026.1.3)
+plugins {
+    id("com.android.application") version "9.3.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.4.10" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.4.10" apply false
+    // KSP: gera o código do Room (DAOs e Database) na compilação
+    id("com.google.devtools.ksp") version "2.3.12" apply false
+}
